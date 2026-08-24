@@ -1,6 +1,6 @@
-# Prototipo de Ventas - Módulo Producto (P01)
+# P01 - Ambiente reproducible y Producto
 
-Proyecto Maven en Java 11 que contiene la clase Producto y sus pruebas unitarias.
+Proyecto Maven en Java 11 con la entidad Producto y pruebas unitarias con JUnit 5.
 
 ## Requisitos
 * Java 11
@@ -11,5 +11,5 @@ Proyecto Maven en Java 11 que contiene la clase Producto y sus pruebas unitarias
 
 1. Clonar el repositorio:
    ```bash
-   git clone <URL_DE_TU_REPOSITORIO>
-   cd tcsw-ventas
+   git clone [https://github.com/JesusAndres765/P01.git](https://github.com/JesusAndres765/P01.git)
+   cd P01
