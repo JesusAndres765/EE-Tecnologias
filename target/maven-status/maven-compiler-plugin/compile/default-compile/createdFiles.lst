@@ -1,2 +1,4 @@
 com/tecnologias/Main.class
+com/tecnologias/Venta.class
 com/tecnologias/Producto.class
+com/tecnologias/DetalleVenta.class
