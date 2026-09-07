@@ -11,6 +11,9 @@ public class Venta {
     }
 
     public double calcularTotal() {
-        return partidas.stream().mapToDouble(DetalleVenta::calcularSubtotal).sum();
+        // Resolución del conflicto: Se aplica descuento (rama-3) y luego impuesto (rama-2)
+        double subtotal = partidas.stream().mapToDouble(DetalleVenta::calcularSubtotal).sum();
+        return subtotal * 0.90 * 1.16;
     }
+
 }

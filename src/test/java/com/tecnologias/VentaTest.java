@@ -9,7 +9,8 @@ public class VentaTest {
         Producto p = new Producto("P1", "Laptop", 1000.0, 10);
         Venta v = new Venta();
         v.agregarPartida(new DetalleVenta(p, 2));
-        assertEquals(2000.0, v.calcularTotal());
+        // Esperamos 2088.0 debido al descuento del 10% y el impuesto del 16%
+        assertEquals(2088.0, v.calcularTotal(), 0.01);
     }
 
     @Test
